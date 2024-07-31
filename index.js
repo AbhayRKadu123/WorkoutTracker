@@ -85,7 +85,7 @@ function deleteWorkout(id) {
         workoutList.removeChild(workoutItem);
     }
 }
-// https://github.com/AbhayRKadu123/WorkoutTracker.git
+
 // Add an initial set to the form
 function addInitialSet() {
     addSet();
@@ -106,3 +106,4 @@ function addSet() {
 
 // Initialize form with one set
 addInitialSet();
+// https://github.com/AbhayRKadu123/WORKOUTWEIGHTTRACKER.git
