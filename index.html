@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Tracking App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weight Tracking App</h1>
+        <h2>Add New Workout</h2>
+
+        <!-- Form to input workout data -->
+        <form id="workout-form">
+            <input class="input-field" type="text" id="muscle-group" placeholder="Target Muscle Group" required>
+            <input class="input-field" type="text" id="exercise-name" placeholder="Exercise Name" required>
+            <div id="sets-container">
+                <div class="set">
+                    <input class="input-field" type="number" placeholder="Reps for Set 1" required>
+                    <input class="input-field" type="number" placeholder="Weight for Set 1 (kg)" required>
+                </div>
+            </div>
+            <button type="button" id="add-set">Add Another Set</button>
+            <button type="submit" class="submit-btn">Add Workout</button>
+        </form>
+
+        <h2>Saved Workouts</h2>
+        <ul id="workout-list" class="exercise-list">
+            <!-- Workout data will be dynamically inserted here -->
+        </ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
